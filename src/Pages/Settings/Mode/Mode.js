@@ -10,9 +10,18 @@ const handlepost = (e)=>{
   e.preventDefault()
 }
 
-// const [dark ,setdark] = useState[false]
- 
-  
+const [modal ,setModal] =['false']
+const handlechanger = ()=>{
+  if(modal == 'false'){
+    return modal == 'true'
+  }if(modal =='true'){
+    return modal == 'false'
+  }
+
+  console.log(modal);
+}
+
+console.log(modal);  
 
   return(
     <div>
@@ -32,9 +41,11 @@ const handlepost = (e)=>{
             <option value="ru">russian</option>
             </select></label>
           
-         <button className='dark-mode'   > <span className='dark-mode-circle'></span></button>
+         <button className={modal == 'false' ? 'dark-mode ps-5' : 'dark-mode pe-5'} onKeyUp={(()=>handlechanger())}  > <span className='dark-mode-circle'></span></button>
          <span className='myaccount-long-line'></span>
-          <button className='myaccount-register' type='submit'>{t('profile.save')}</button>   
+
+
+          <button disabled className='myaccount-register mr-400' type='submit'>{t('profile.save')}</button>   
        </form>
    </div>
     </div>
