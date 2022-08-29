@@ -1,0 +1,268 @@
+
+.closed{
+  display: none;
+}
+
+.modalopen{
+  z-index: 100;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(49, 77, 77);
+  border-radius: 15px;
+}
+
+.header{
+  padding: 11px 50px;
+  position: relative;
+  border-radius: 15px 15px 0 0;
+  background: #191919;
+border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.account-link{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 144.4%;
+  color: #FFFFFF;
+  margin: 0 20px;
+}
+
+.header > .active{
+  border-bottom: 2px #fff solid;
+  padding-bottom: 28px;
+}
+
+.account-img{
+  color: #fff;
+  background-color: transparent;
+  margin-left: 400px;
+  border: none;
+}
+
+.account-logo{
+  margin-right: 550px;
+}
+
+.text{
+  background: #191919;
+}
+
+
+.background{
+  background-image: url('../../assets/img/ornament2.png');
+  background-repeat: no-repeat;
+  background-size:662px 1100px;
+  background-position: calc( 100% ) calc(350px);
+  border-radius: 25px;
+  
+  background-color: #191919;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.background2{
+  background-image: url('../../assets/img/ornament2.png');
+  background-repeat: no-repeat;
+  background-size:662px 1100px;
+  background-position: bottom -170px right ;
+  border-radius: 25px;
+  
+  background-color: #191919;
+  position: relative;
+}
+
+.carusel-changer{
+  position: absolute;
+   left: -50.7%;
+   top: 211px;
+}
+
+.changer1{
+  height: 3px !important;
+  width: 57px !important; 
+  border-radius: 10px !important;
+}
+
+.carusel-img{
+  border-radius: 21px;
+}
+
+
+.author-item{
+  text-align: center;
+  color: #fff;
+  margin: 25px;
+  width: 173.33px;
+  background: linear-gradient(209.09deg, #191919 -1.68%, #212121 135.36%);
+  border-radius: 15px;
+}
+
+
+.book-item{
+  text-align: center;
+  color: #fff;
+  margin: 25px;
+  width: 173.33px;
+  border-radius: 15px;
+}
+
+.author-list{
+  justify-content: center;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+
+.searching{
+  text-align: center;
+  padding: 40px 0;
+  position: absolute;
+  width: 1114.54px;
+  left: 160.33px;
+  top: 379.8px;
+
+  background: #191919;
+  box-shadow: 0px 4px 77px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.searching-text{
+  font-family: 'Rotterburg Stylish FREE';
+font-style: normal;
+font-weight: 400;
+font-size: 31px;
+line-height: 34px;
+color: #C9AC8C;
+margin: 0 0 13px;
+}
+
+.searching-input{
+  width: 709.58px;
+  background: #404040;
+  padding: 16px 0 14px 27px;
+  border-radius: 15px;
+  font-style: normal;
+  border: none;
+  margin:  0 15px 0 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.searching-button{
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position:  50%;
+  width: 160.21px;
+  background: #C9AC8C;
+  border-radius: 15px;
+  padding: 15px 47px 15px 37px;
+}
+
+.author-search{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.author-type{
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.author-type-changer{
+  margin-top: 212px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.author-type-title{
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 34px;
+  color: #C9AC8C;
+  margin: 0 0 30px;
+}
+
+.author-type-button{
+  background-color: transparent;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.author-type-button:active , .author-type-button:hover{
+  color: #C9AC8C;
+}
+
+.author-name{
+  text-decoration: none;
+  margin: 0 0 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #C9AC8C;
+}
+
+.author-date{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 20px;
+}
+
+
+.book-img{
+  width: 164.15px;
+  height: 246.23px;
+  border-radius: 15px;
+}
+
+.author-book{
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #C9AC8C;
+}
+
+.author-img{
+  border-radius: 15px 15px 0px 0px;
+}
+
+.single-link{
+  text-decoration: none;
+}
+
+.image{
+  width: 49.72px;
+height: 49.72px;
+border-radius: 50%;
+}

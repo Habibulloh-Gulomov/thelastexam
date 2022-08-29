@@ -1,0 +1,153 @@
+.single-img{
+  width: 582px;
+  height: 779.33px;
+  border-radius: 0px 50px 50px 0px;
+  margin:  0 0 40px;
+}
+
+
+.author-info{
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 46px;
+}
+
+.author-birth{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 144.4%;
+  color: rgba(255, 255, 255, 0.6);
+  margin:  0 0 15px;
+}
+
+.single-date{
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 144.4%;
+  color: #C9AC8C;
+  margin:  0 0 15px;
+  }
+
+  .author-city{
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .line{
+    margin: 0  30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 144.4%;
+    color: #C9AC8C;
+  }
+
+  .main-info{
+    margin: 55px 0 20px 100px;
+    width: 671px;
+  }
+
+.main-name{
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  color: #C9AC8C;
+}
+
+.main-more{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 144.4%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.Mark{
+  vertical-align: middle;
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #C9AC8C;
+}
+
+.Mark-text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 154.9%;
+  color: #FFFFFF;
+  margin:0 0  0 20px;
+  width: 362px;
+}
+
+.author-write{
+  justify-content: space-between;
+  margin: 50px  0 0;
+}
+
+.author-write1{
+  width: 1250px;
+  justify-content: space-between;
+  margin: 50px  auto 0;
+}
+
+
+.author-asar{
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 34px;
+  text-align: center;
+  color: #C9AC8C;
+}
+
+.author-asar1{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 34px;
+  text-align: center;
+  color: #C9AC8C;
+}
+
+.author-movelink{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+
+  .nothing{
+    font-size: 40px;
+    color: #FFFFFF;
+  }
+
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .uploadimg{
+    display: none;
+  }
+

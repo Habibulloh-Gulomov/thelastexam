@@ -1,0 +1,152 @@
+.single-bookimg{
+  width: 519.29px;
+  height: 810.13px;
+  border-radius: 15px;
+  margin-right: 55px;
+}
+
+.book-main{
+  margin: 57px 0 64px 80px;
+}
+
+.star{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 144.4%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.book-item{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 15px 0 0;
+}
+
+.book-item-value{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin:  10px  0;
+}
+
+.singlebook-author{
+
+  display: flex;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #C9AC8C;
+  margin:  50px 0 40px;
+}
+
+.the-long-line{
+  margin-left: 20px;
+  margin-top: 8px;
+  width: 500.25px;
+height: 1px;
+background-color:rgba(201, 172, 140, 0.6) ;
+display: inline-block;
+/* border: 1px solid rgba(201, 172, 140, 0.6); */
+}
+
+.book-des{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 144.4%;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 45px 00 0;
+}
+
+.book-electro{
+  display: flex;
+  align-items: center;
+}
+
+.book-electr-item{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin:  10px 0 8px;
+}
+
+.book-electr-price{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+.book-electr{
+  text-align: center;
+  margin-right: 26px;
+}
+
+.javon{
+  padding: 16px 32px;
+  background: #C9AC8C;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3C2710;
+  border: none;
+  margin-left: 162px;
+}
+
+
+.blockquote{
+  width: 802.6px;
+  left: 0px;
+  top: 0px;
+ position: relative;
+  border-radius: 15px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 45px;
+  margin-left:60px ;
+  /* background-image: url('../../assets/img/blockquet.png');
+  background-size: 50px 40px;
+  background-repeat: no-repeat;
+  background-position: calc(20%) calc(-20px); */
+  background: linear-gradient(263.94deg, #161616 0%, #1E1E1E 98.06%);
+}
+
+.blockquote-img{
+  position: absolute;
+  top: -15px;
+  left: 30px;
+
+}
+
+.like{
+  margin-top: 180px;
+}
+
+.iqtibos-box{
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.iqtibos-box > .active{
+  color: #C9AC8C;
+}
+
+.iqtibos-link{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 70px;
+}
